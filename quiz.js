@@ -1,9 +1,9 @@
 var quizForm = document.querySelector(".quiz-form");
-var button=document.querySelector("#button");
-var displayText=document.querySelector("#display-text");
-var headingText=document.querySelector("#heading");
+var button = document.querySelector("#button");
+var displayText = document.querySelector("#display-text");
+var headingText = document.querySelector("#heading");
 
-headingText.style.display="none";
+headingText.style.display = "none";
 
 var correctAnswers = [
     "90°",
@@ -16,26 +16,23 @@ var correctAnswers = [
     "a + b + c",
     "no",
     "45°",
-  ];
+];
 
-  function calculateScore() {
-    
-    var formResults = new FormData(quizForm);
+function calculateScore() {
+
+    var data = new FormData(quizForm);
     let score = 0;
     let index = 0;
-    for (let value of formResults.values()) {
-      if(value==="")
-      {
-        headingText.style.display="block";
-        headingText.innerText= "Please enter all options";
-      }  
-      else if (value === correctAnswers[index]) {
-        score=score + 1;
-      }
-      index = index + 1;
-    }
-    headingText.style.display="block";
-    displayText.innerText = score;
-  }
-  
-  button.addEventListener("click", calculateScore);
+        for (let value of data.values()) {
+            if (value === correctAnswers[index]) {
+                score++;
+            }
+            console.log(value);
+            index++;
+        }
+        headingText.style.display = "block";
+        displayText.innerText = score;
+    
+}
+
+button.addEventListener("click", calculateScore);
