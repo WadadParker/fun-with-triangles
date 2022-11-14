@@ -4,3 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
+.question-container {
+    padding: 1.3rem;
+}
