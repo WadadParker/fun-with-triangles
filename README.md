@@ -27,7 +27,7 @@
 ## Screenshots
 
 ![isTriangle](https://raw.githubusercontent.com/WadadParker/fun-with-triangles/main/triangleOne.PNG)
-![quiz](https://raw.githubusercontent.com/WadadParker/fun-with-triangles/main/triangleTwo.PNG)
+![quiz](https://raw.githubusercontent.com/WadadParker/fun-with-triangles/main/trianlgeTwo.PNG)
 ![hypotenuse](https://raw.githubusercontent.com/WadadParker/fun-with-triangles/main/triangleThree.PNG)
 ![area](https://raw.githubusercontent.com/WadadParker/fun-with-triangles/main/triangleFour.PNG)
 
